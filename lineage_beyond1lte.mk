@@ -42,9 +42,6 @@ MATRIXX_CHIPSET := exynos9820
 MATRIXX_BATTERY := 3400mah
 MATRIXX_DISPLAY := 1440x3040
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_beyond1lte
 PRODUCT_DEVICE := beyond1lte
