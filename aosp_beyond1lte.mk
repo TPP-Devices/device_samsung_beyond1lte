@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -33,8 +33,8 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common aosp stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 MATRIXX_BUILD_TYPE := Official
 MATRIXX_MAINTAINER := FrEeRuNnEr4EvEr
@@ -43,7 +43,7 @@ MATRIXX_BATTERY := 3400mah
 MATRIXX_DISPLAY := 1440x3040
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond1lte
+PRODUCT_NAME := aosp_beyond1lte
 PRODUCT_DEVICE := beyond1lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G973F
