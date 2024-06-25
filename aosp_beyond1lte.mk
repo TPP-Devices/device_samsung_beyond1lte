@@ -36,12 +36,6 @@ TARGET_SCREEN_WIDTH := 1440
 ## Inherit some common aosp stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-MATRIXX_BUILD_TYPE := Official
-MATRIXX_MAINTAINER := FrEeRuNnEr4EvEr
-MATRIXX_CHIPSET := exynos9820
-MATRIXX_BATTERY := 3400mah
-MATRIXX_DISPLAY := 1440x3040
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := aosp_beyond1lte
 PRODUCT_DEVICE := beyond1lte
